@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あなたは登録されました</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>あなたはこちらのサービスに登録されました</h1>
+        <p>以下のボタンをクリックすると、請求内容が表示されます。もしも払わなかった場合は法的処置をとらせていただきます。</p>
+        <button id="fakeButton">クリックして請求書を見る</button>
+        <div id="invoice" class="hidden">
+            <h2>請求書</h2>
+            <p>あなたはこのサイトを訪問したため、<span class="amount">100,000円</span>を支払う義務があります。</p>
+            <p>支払い方法については、以下の連絡先までご連絡ください。</p>
+            <p>Email: OKOME@MATUOKAMAILL.com</p>
+        </div>
+        <div class="footer">
+            <p>あなたには支払う義務があります。直ちにお支払いください。</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
